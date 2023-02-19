@@ -15,6 +15,7 @@ let albumModel = require('./models/Album');
 let playListModel = require('./models/Playlist');
 let usersRouter = require('./routes/users');
 let albumsRouter = require('./routes/albunes');
+let playlistRouter = require('./routes/playlist');
 
 let mongoose = require('mongoose');
 mongoose.set('strictQuery', false); //requerido para quitar el warning
